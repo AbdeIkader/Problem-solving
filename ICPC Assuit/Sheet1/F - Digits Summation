@@ -1,0 +1,13 @@
+#include <iostream>
+ 
+using namespace std;
+ 
+int main()
+{
+    long long N,M,resultN,resultM;
+    cin >> N>>M;
+    resultN= N % 10;
+    resultM = M % 10;
+    cout << resultN + resultM;
+    return 0;
+}
