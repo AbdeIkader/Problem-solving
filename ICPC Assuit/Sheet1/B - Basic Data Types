@@ -1,0 +1,16 @@
+#include <iostream>
+ 
+using namespace std;
+ 
+int main()
+{
+    int x;
+    long long y;
+    char z;
+    float m;
+    double q;
+ 
+    cin >> x >> y >> z >> m >> q;
+ 
+    cout << x <<"\n" << y << "\n" << z << "\n" << m << "\n" << q;
+}
