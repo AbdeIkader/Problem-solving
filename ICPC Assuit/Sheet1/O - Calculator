@@ -1,0 +1,24 @@
+#include <iostream>
+ 
+using namespace std;
+ 
+int main()
+{
+    int A,B,result;
+    char S;
+    cin>> A >> S>> B;
+    if(S == '+'){
+        result = A + B;
+    }else if(S == '-'){
+        result = A-B;
+    }else if(S == '*'){
+        result = A*B;
+    }else if(S == '/'){
+        result = A/B;
+    }
+    cout << result;
+ 
+    return 0;
+}
+
+//NOTE : YOU CAN USE SWITCH STATMENT TO SOLVE THIS PROBLEM 
