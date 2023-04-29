@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+ 
+int main()
+{
+    double N,result;
+    cin >> N;
+    int x = N;
+ 
+    if(fmod(N,1) ==0){
+        cout << "int " << (int)N;
+    }else{
+ 
+        cout << "float " << floor(N) <<" " <<N - x;
+    }
+ 
+    return 0;
+}
