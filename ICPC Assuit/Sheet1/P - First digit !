@@ -17,3 +17,23 @@ int main()
         cout <<"ODD";
     }
 }
+
+UPDATED 5/25/2023
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+string X;
+cin >> X;
+
+int s = X[0]-'0';
+
+cout << s;
+(s % 2==0)?cout<< "EVEN":cout<< "ODD";
+
+}
